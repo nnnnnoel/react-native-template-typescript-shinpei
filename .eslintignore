@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+.vscode/
+build_android/
+build_ios/
+stage_android/
+stage_ios/
+@types/
+*.d.ts

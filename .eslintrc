@@ -1,0 +1,105 @@
+{
+  "extends": [
+    "react-native-shinpei"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "import/extensions": [
+      2,
+      {
+        "js": "never",
+        "json": "always",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "react/prop-types": 0,
+    "react/jsx-wrap-multilines": 0,
+    "no-param-reassign": [
+      2,
+      {
+        "ignorePropertyModificationsFor": [
+          "^draft"
+        ]
+      }
+    ],
+    "react/jsx-one-expression-per-line": 0,
+    "no-unused-expressions": 0,
+    "one-var": 0,
+    "no-underscore-dangle": 0,
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
+    "react-hooks/exhaustive-deps": 1
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx",
+          ".android.js",
+          ".android.jsx",
+          ".android.ts",
+          ".android.tsx",
+          ".ios.js",
+          ".ios.jsx",
+          ".ios.ts",
+          ".ios.tsx",
+          ".web.js",
+          ".web.jsx",
+          ".web.ts",
+          ".web.tsx",
+          ".d.ts",
+          ".d"
+        ]
+      }
+    },
+    "babel-plugin-root-import": [
+      {
+        "rootPathSuffix": "./src/api",
+        "rootPathPrefix": "@api/"
+      },
+      {
+        "rootPathSuffix": "./src/components",
+        "rootPathPrefix": "@components/"
+      },
+      {
+        "rootPathSuffix": "./src/utils",
+        "rootPathPrefix": "@utils/"
+      },
+      {
+        "rootPathSuffix": "./src/context",
+        "rootPathPrefix": "@context/"
+      },
+      {
+        "rootPathSuffix": "./src/constants",
+        "rootPathPrefix": "@constants/"
+      },
+      {
+        "rootPathSuffix": "./src/screens",
+        "rootPathPrefix": "@screens/"
+      },
+      {
+        "rootPathSuffix": "./src/nav",
+        "rootPathPrefix": "@nav/"
+      },
+      {
+        "rootPathSuffix": "./assets",
+        "rootPathPrefix": "@assets/"
+      },
+      {
+        "rootPathSuffix": ".",
+        "rootPathPrefix": "/"
+      }
+    ]
+  }
+}
