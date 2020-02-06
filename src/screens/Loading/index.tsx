@@ -4,7 +4,7 @@ import { NavigationSwitchScreenComponent } from 'react-navigation';
 
 const Loading: NavigationSwitchScreenComponent = ({ navigation }) => {
   React.useEffect(() => {
-    navigation.navigate('Home');
+    navigation.navigate('Login');
   }, []);
   return (
     <>
