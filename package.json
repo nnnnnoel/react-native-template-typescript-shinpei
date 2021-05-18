@@ -16,7 +16,7 @@
     "bugsnag-react-native": "^2.23.3",
     "react": "16.9.0",
     "react-native": "0.61.5",
-    "react-native-fast-image": "^7.0.2",
+    "react-native-fast-image": "^8.3.0",
     "react-native-gesture-handler": "^1.5.2",
     "react-native-iphone-x-helper": "^1.2.1",
     "react-native-modal": "^11.5.3",
